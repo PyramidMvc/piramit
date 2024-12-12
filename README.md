@@ -14,5 +14,9 @@ It can process data formats such as JSON, XML, and Form data.
 
 
 **Install**
-> [!Note]
+
+`#000000`
 >composer require piramit/http
+
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
