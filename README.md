@@ -12,9 +12,8 @@ The Request HTTP package is a library that can send different types of web reque
 **Headers:** Data can be sent with HTTP headers.
 It can process data formats such as JSON, XML, and Form data.
 
+<br>
 
 **Install**
 
-
-
-composer require piramit/http
+composer require piramit/http dev-main
