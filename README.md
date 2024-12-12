@@ -14,5 +14,5 @@ It can process data formats such as JSON, XML, and Form data.
 
 
 **Install**
-> [!]
+> [!Note]
 >composer require piramit/http
