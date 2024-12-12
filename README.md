@@ -15,4 +15,4 @@ It can process data formats such as JSON, XML, and Form data.
 
 **Install**
 
-<br><div style="color:#000000;border:solid 1px #ddd;padding:10px;border-radius:10px">composer require piramit/http</div><br>
+<br><code style="color:#000000;border:solid 1px #ddd;padding:10px;border-radius:10px">composer require piramit/http</code><br>
