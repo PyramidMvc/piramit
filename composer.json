@@ -1,7 +1,7 @@
 {
     "name": "piramit/http",
     "version": "1.0.0",
-    "description": "Herşey daha güzel olacak :)",
+    "description": "Pyramid Http",
     "type": "library",
     "license": "MIT",
     "autoload": {
