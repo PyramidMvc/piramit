@@ -12,7 +12,7 @@ You can install the package using Composer. Run the following command in your pr
 composer require piramit/http
 ```
 
-This will download and install the latest version of `piramit/http` into your `vendor` directory.
+This will download and install the latest version of `vendor/piramit/http` into your directory.
 
 ---
 
