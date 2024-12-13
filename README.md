@@ -32,9 +32,9 @@ Piramit HTTP provides an easy-to-use interface for sending HTTP requests. You ca
 ### Example: Sending a GET Request
 ```php
 <?php
-use Piramit\Client;
+use Piramit\Request;
 
-$client = new Client();
+$client = new Request();
 $response = $client->get('https://api.example.com/data');
 
 echo $response->getBody();
@@ -44,7 +44,7 @@ echo $response->getBody();
 ### Explanation:
 
 - This example demonstrates how to send a simple `GET` request to an `API` endpoint.
-- We instantiate a new Client object, then use the `get()` method to request data from `https://api.example.com/data`.
+- We instantiate a new Request object, then use the `get()` method to request data from `https://api.example.com/data`.
 - The response body is accessed using `$response->getBody()` and printed to the console.
 
 
@@ -52,9 +52,9 @@ echo $response->getBody();
 
 ```php
 <?php
-use Piramit\Client;
+use Piramit\Request;
 
-$client = new Client();
+$client = new Request();
 $response = $client->post('https://api.example.com/submit', [
     'json' => [
         'name' => 'John Doe',
@@ -75,7 +75,7 @@ The `post()` method is used to send data to the `https://api.example.com/submit`
 The status code and response body are then printed out using `$response->getStatusCode()` and `$response->getBody()`.
 
 ### 2. Handling Responses
-You can easily work with the response object returned from the HTTP client. The Response object provides methods for retrieving status codes, headers, and the response body.
+You can easily work with the response object returned from the HTTP request. The Response object provides methods for retrieving status codes, headers, and the response body.
 
 ### Example: Checking the Status Code
 ```php
@@ -144,9 +144,9 @@ try {
 ### Example: Full Example of Using Piramit HTTP
 ```php
 <?php
-use Piramit\Client;
+use Piramit\Request;
 
-$client = new Client();
+$client = new Request();
 
 // Send GET request
 $response = $client->get('https://api.example.com/data');
@@ -189,7 +189,7 @@ There are no complex configurations needed for this package, but you can extend 
 ### Example: Adding Custom Headers
 ```php
 <?php
-$client = new Client();
+$client = new Request();
 $response = $client->get('https://api.example.com/data', [
     'headers' => [
         'Authorization' => 'Bearer YOUR_API_TOKEN',
