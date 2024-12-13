@@ -1,4 +1,4 @@
-# Piramit HTTP
+# Pyramid HTTP
 
 Piramit HTTP is a PHP package that simplifies the process of handling HTTP requests and responses in web applications. It provides an intuitive API for making HTTP requests, managing responses, and handling errors. This package is designed for developers who want to streamline their work with HTTP in PHP.
 
