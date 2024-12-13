@@ -18,7 +18,7 @@ This will download and install the latest version of `piramit/http` into your `v
 
 # Requirements
 
-- PHP 7.3 or higher
+- PHP 8.2 or higher
 - Composer
 - A web server like Apache or Nginx (for web applications)
 
