@@ -32,7 +32,7 @@ Piramit HTTP provides an easy-to-use interface for sending HTTP requests. You ca
 ### Example: Sending a GET Request
 ```php
 <?php
-use Piramit\Http\Client;
+use Piramit\Client;
 
 $client = new Client();
 $response = $client->get('https://api.example.com/data');
@@ -52,7 +52,7 @@ echo $response->getBody();
 
 ```php
 <?php
-use Piramit\Http\Client;
+use Piramit\Client;
 
 $client = new Client();
 $response = $client->post('https://api.example.com/submit', [
@@ -116,7 +116,7 @@ Piramit HTTP also provides error handling mechanisms, allowing you to easily man
 ### Example: Catching Exceptions
 ```php
 <?php
-use Piramit\Http\Exception\RequestException;
+use Piramit\Exception\RequestException;
 
 try {
     $response = $client->get('https://api.example.com/data');
@@ -144,7 +144,7 @@ try {
 ### Example: Full Example of Using Piramit HTTP
 ```php
 <?php
-use Piramit\Http\Client;
+use Piramit\Client;
 
 $client = new Client();
 
