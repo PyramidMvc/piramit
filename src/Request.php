@@ -2,10 +2,10 @@
 /**
  * App          : Pyramid PHP Fremework
  * Author       : Nihat Doğan
- * Email        : info@pyramid.com
- * Website      : https://www.pyramid.com
+ * Email        : pyramidmvc@gmail.com
+ * Website      : https://www.tcyazilim.com
  * Created Date : 01/01/2025
- * License GPL
+ * License MIT
  *
  */
 
