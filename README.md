@@ -212,4 +212,4 @@ We welcome contributions to Piramit HTTP! If you'd like to contribute, please fo
 This package is open-source and released under the MIT License.
 
 ### Contact
-For more information, please contact [pyramidmvc@gmail.com].
+For more information, please contact [pyramidmvc@gmail.com]().
